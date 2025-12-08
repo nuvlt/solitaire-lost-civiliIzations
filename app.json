@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Solitaire: Lost Civilizations",
+    "slug": "solitaire-lost-civilizations",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2C1810"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nuvlt.solitaire"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2C1810"
+      },
+      "package": "com.nuvlt.solitaire",
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
